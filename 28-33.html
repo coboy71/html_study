@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <fieldset>
+            <legend>회원가입</legend>
+            <form action="">
+                <ul>
+                    <li>
+                        * 아이디(필수): 
+                        <input type="text" placeholder="아이디를 입력하세요" name="id" required>
+                    </li>
+                    <li>
+                        비밀번호: <input type="password" placeholder="비번을 입력하세요"  name="pw">
+                    </li>
+                    <li>
+                        이름 : <input type="text" placeholder="이름을 입력하세요" name="name">
+                    </li>
+                    <li>
+                        생년월일 : <input type="date" value="2022-07-14" min="2022-07-11"  max="2022-07-15" name="birth">
+                    </li>
+                    <li>
+                        이메일 : <input type=email placeholder= "이메일 주소를 입력하세요" name="email">
+                    </li>
+                    <li>
+                        성별 :
+                        <label for="male">남</label> 
+                        <input type="radio" name="sex" id="male" checked>
+                        <label for="female">여</label> 
+                        <input type="radio" name="sex" id="female" >
+                    </li>
+                    <li>
+                        나이(1~100) : <input type="number" value="10" min="1" max="100">
+                    </li>
+                </ul>
+                <input type="submit" value="가입하기">
+                <input type="reset"> (구글에서 "html form 초기화" 검색)
+            </form>
+        </fieldset>
+    </body>
+</html>

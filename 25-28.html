@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            td{
+                border: 1px solid black;
+            }
+
+            table{
+                border: 1px solid black;
+            }
+        </style>
+        
+
+    </head>
+    <body>
+        <form action="http://127.0.0.1:5501/edu.html">            
+            <fieldset>
+                <legend>나의일기장</legend>
+                <div>
+                    <textarea name="ta" id="" cols="30" rows="10" placeholder="여기에 입력하세요"></textarea>
+                </div>
+                <div>
+                    <select name="myfruit" id="">
+                        <option value="orange">오렌지</option>
+                        <option value="apple">사과</option>
+                        <option value="grape" selected>포도</option>
+                    </select>
+                    초기값은 포도가 선택되도록 한다
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+            <br><br>
+            <table>
+                <tr>
+                    <td colspan="6">시간표</td>
+                </tr>
+                <tr>
+                    <td rowspan="6">시간</td>
+                    <td>Mon</td>
+                    <td>Tue</td>
+                    <td>Wed</td>
+                    <td>Thu</td>
+                    <td>Fri</td>
+                </tr>
+                <tr>
+                    <td>과학</td>
+                    <td>수학</td>
+                    <td>과학</td>
+                    <td>수학</td>
+                    <td>예술</td>
+                </tr>
+                <tr>
+
+                    <td>사회</td>
+                    <td>역사</td>
+                    <td>영어</td>
+                    <td>역사</td>
+                    <td>체육</td>
+                </tr>
+                <tr>
+                    <td colspan="6">점심식사</td>
+                </tr>
+                <tr>
+                    <td>과학</td>
+                    <td>수학</td>
+                    <td>과학</td>
+                    <td>수학</td>
+                    <td>실습</td>
+                </tr>
+                <tr>
+                    <td>사회</td>
+                    <td>역사</td>
+                    <td>영어</td>
+                    <td>사회</td>
+                    <td>실습</td>
+                </tr>
+            </table>
+
+        </form>
+    </body>
+</html>

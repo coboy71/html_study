@@ -1,0 +1,57 @@
+<html>
+    <head>
+
+        <style>
+            .container{
+                height: 150px;
+                background-color: lightgray;
+                line-height: 150px;
+                text-align: center;
+            }
+
+            a{
+                color: gray;
+                font-size:11px;
+                font-weight: 600;
+                text-decoration-line: none;
+                
+                border-left: 1px solid gray;
+                border-top: 1px solid gray;
+                border-bottom: 1px solid gray;
+                
+                padding-left:20px;
+                padding-right:20px;
+                padding-top:10px;
+                padding-bottom:10px;
+            }
+
+            .last{
+                border-right: 1px solid gray;
+            }
+
+            .highlight{
+                background-color: black;
+                color: white;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div class="container">
+           <a href="#">자동차</a><a href="#">웹툰</a><a href="#">경제</a><a href="#" class="highlight">추천*구독</a><a href="#">레시피</a><a href="#">리빙</a><a href="#">책방</a><a href="#" class="last">패션부티</a>
+        </div>  
+
+        <ul>
+            <li>div 태그 안에 a태그가 들어가있는 구조</li>
+            <li>a태그 사용시 줄바꾸지 말고 한 줄로 코딩 할 것 </li>
+            <li>(줄 바꾸면 단어 사이에 공백이 발생 함, 이해가 안되면 소스보기에서 a태그 참고할 것)</li>
+            <li>border도 left, top, bottom, right 별로 줄 수 있음 </li>
+            <ul>
+                <li>border-left: 1px solid gray;</li>
+                <li>border-top: 1px solid gray;</li>
+            </ul>
+            <li>a 태그에 border를 4방향 주면 border가 겹쳐 보이므로 이쁘지 않음</li>
+        </ul>
+    </body>
+</html>

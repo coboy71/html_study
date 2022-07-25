@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin:0px;
+            }
+
+            .parent1{
+                width:300px; height:200px;
+                border: solid black 2px;
+                margin: 50px auto;
+                position: relative;
+            }
+
+            .parent2{
+                font-size: 30px;
+                background-color: blue;
+                color:white;
+                text-align: center;
+            }
+
+
+
+            .child{
+                position: absolute;
+                width:100px; height:50px;
+            }
+
+            .red{
+                background-color: red;
+                left: 0px; top:0px;
+            }
+
+            .yellow{
+                background-color: yellow;
+                left: 0px; bottom:0px;
+            }
+
+            .orange{
+                background-color: orange;  
+                right: 0px; bottom:0px;
+            }
+
+            .green{
+                background-color: green;  
+                right: 0px; top:0px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent1">
+            <div class="child red"></div>
+            <div class="child orange"></div>
+            <div class="child yellow"></div>
+            <div class="child green"></div>
+        </div>
+        <div class="parent2">DIV</div>
+
+        <ul>
+            <li>검은테두리박스(부모div)는 위아래로 50px 마진, 가운데 정렬 함</li>
+            <li>검은테두리박스 크기는 가로 300px, 세로 200px</li>
+            <li>빨, 주, 노, 초 사각박스는 가로 100px, 세로 50px</li>
+            <li>제일 아래 파랑색 div의 글자 크기는 30px, 글자색깔 흰색, 가운데 정렬 함</li>
+        </ul>
+     </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .house{
+                width:300px; height:300px;
+                position: absolute;
+                background-color: yellow;
+                top: calc(50% - 150px); 
+                left: calc(50% - 150px);
+            }
+
+            .box{
+                width:100px; height:100px;
+                background-color: black;
+                float:left;
+                transition-duration: 200ms;
+            }
+
+            .box:hover{
+                border-radius: 50%;
+            }
+
+            .box:active{
+                background-color: red;
+                border-radius: 0%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="house">
+            <div class="box item1"></div>
+            <div class="box item2"></div>
+            <div class="box item3"></div>
+            <div class="box item4"></div>
+            <div class="box item5"></div>
+            <div class="box item6"></div>
+            <div class="box item7"></div>
+            <div class="box item8"></div>
+            <div class="box item9"></div>
+        </div>
+        <ul>
+            <li>노랑색 큰 사각형(300px, 300px)을 만들어 화면 가운데 위치한다. position 이용</li>
+            <li>노랑색 큰 사각형 안에 검은색 작은사각형(100px, 100px) 9개가 들어있다</li>
+            <li>작은 사각형 hover 하면 원으로 transtion 한다</li>
+            <li>작은 사각형 click 하면 붉은 사각형으로 transtion 한다</li>
+        </ul>
+    </body>
+</html>
